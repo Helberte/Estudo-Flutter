@@ -1,4 +1,3 @@
-//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart'; // trás todos os widget do material design
 
 void main() {
@@ -13,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Container(
         color: Colors.red,
+        child: const Text("Olá mundo"),
       ),
     );
   }
